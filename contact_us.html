@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New Trip</title>
+    <link rel="stylesheet" href="./travel_recommendation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <h1><img src="./images/plane.png"></img>TravelBloom</h1>
+        <ul>
+            <li><a href="./travel_recommendation.html">Home</a></li>
+            <li><a href="./about_us.html">About us</a></li>
+            <li><a href="./contact_us.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="contact-us">
+            <section>
+                <h1>CONTACT US</h1>
+                <br>
+                <br>
+                <p>Get in touch</p>
+            </section>
+            <section>
+                <form action="#">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <input type="submit" value="Submit" id="contactUsSubmit">
+                </form>
+            </section>
+        </div>
+    </div>
+    <script src="./travel_recommendation.js"></script>
+</body>
+</html>
